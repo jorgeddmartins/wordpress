@@ -1,0 +1,206 @@
+/* ==|== jigoshop =====================================================
+   Author: Jorge DD Martins / Front End Developer - HTML5 Evangelist
+   Code:  JIGOSHOP
+   ========================================================================== */
+
+div.menu ul li.page-item-2 { display: none!important; } 
+div.menu ul { margin:0; }
+div.menu ul li { list-style: none; }
+div.menu ul li.current_page_item, div.menu ul li { display: none; }
+div.menu ul li.page_item { display: block; }
+div.menu ul li.page_item a { background: #fff url(../img/icons/arrow_lk.png) no-repeat right center;
+padding-top: 5.5%;
+padding-bottom: 4.5%;
+border-bottom: 2px solid #079ac4;
+font-size: 17px;
+color: #023c4c;
+text-indent: 40px;
+width: 100%;
+display: inline-block;
+text-transform: uppercase;
+-moz-transition: all 0.7s ease-in-out;
+-webkit-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+-ms-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out; 
+}
+
+div.menu ul li.page_item a:hover {
+background: #fafafa url(../img/icons/arrow_lk.png) no-repeat right center;
+-moz-transition: all 0.7s ease-in-out;
+-webkit-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+-ms-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;	
+}
+
+div.menu ul.children li.page_item a { background: #e7f3f7;
+padding-top: 5.5%;
+padding-bottom: 4.5%;
+border-bottom: 2px solid #079ac4;
+font-size: 18px;
+color: #0b85a8;
+text-indent: 70px;
+font-style: italic;
+letter-spacing: 1px;
+width: 100%;
+display: inline-block;
+text-transform: capitalize;
+-moz-transition: all 0.4s ease-in-out;
+-webkit-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out; 
+}
+
+div.menu ul.children li.page_item a:hover {
+	width: 95%;
+border-bottom: 0;
+-moz-transition: all 0.5s ease-in-out;
+-webkit-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out; 
+margin-left: 20px;
+margin-bottom: 1px;
+border-radius: 500px;
+}
+
+div#sidebar { display: none; }
+
+
+/* ==|== search form =====================================================
+   Author: Jorge DD Martins / Front End Developer - HTML5 Evangelist
+   Code:  SEARCH FORM
+   ========================================================================== */
+form[role="search"].search-form input[type="search"].search-field { 
+width: 90%;
+height: 43px;
+text-indent: 5%;
+font-size: 16px;
+color: #93dff5;
+padding-right: 2%;
+background: rgb(255,255,255);
+border: 1px solid #ddd;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+line-height: 52px;
+-webkit-box-shadow: #eee 0 0 1px 1px;
+-moz-box-shadow: #eee 0 0 1px 1px;
+-o-box-shadow: #eee 0 0 1px 1px;
+box-shadow: #eee 0 0 1px 1px;
+-moz-transition: all 0.7s ease-in-out;
+-webkit-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+-ms-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+margin-top: 2%;
+}
+
+form[role="search"].search-form input[type="search"].search-field:hover { 
+-moz-transition: all 0.7s ease-in-out;
+-webkit-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+-ms-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+}
+
+form[role="search"].search-form input[type="search"].search-field:focus {
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(147, 223, 245, 1);
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(147, 223, 245, 1);
+-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(147, 223, 245, 1);
+-o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(147, 223, 245, 1);
+-moz-transition: all 0.7s ease-in-out;
+-webkit-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+-ms-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+border: 1px solid #80b4f4;
+	}
+
+form[role="search"].search-form input[type="submit"].search-submit { display: none; }
+
+
+/* ==|== post's =====================================================
+   Author: Jorge DD Martins / Front End Developer - HTML5 Evangelist
+   Code:  POST'S AREA
+   ========================================================================== */
+article.type-post { width: 63.5%; margin: auto; margin-top: 1%; margin-bottom: 3%; background: #fafafa; padding: 2%; }
+article.type-post header.entry-header { width: 100%; } article.type-post header.entry-header h1.entry-title, article.type-post header.entry-header h1.entry-title a { font-size: 32px; color: #023c6c; display: inline-block; }
+article.type-post header.entry-header div.entry-meta span.posted-on, article.type-post header.entry-header div.entry-meta span.posted-on a { font-size: 12px; color: #079ac4; }
+article.type-post header.entry-header div.entry-meta span.byline { margin-left: 2%; }
+article.type-post header.entry-header div.entry-meta span.byline, article.type-post header.entry-header div.entry-meta span.byline a { font-size:20px; color: #023c6c; font-style: italic; }
+article.type-post div.entry-content { margin-top: 30px; }
+article.type-post div.entry-content p { font-size: 13px!important; color: #333; text-align: justify!important; }
+article.type-post footer.entry-meta { width: 90%; margin: auto; margin-top: 15px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding-top: 0.5%; padding-bottom: 0.5%; }
+article.type-post footer.entry-meta span.comments-link a { font-size: 23px; color: #023c6c; display: inline-block; margin-left: 5%; padding-right: 5%; background: url(img/icons/ballon.jpg) no-repeat right center; margin-right: 10%; }
+article.type-post footer.entry-meta span.edit-link a { font-size: 16px; color: #079ac4; padding-right: 3%; background: url(img/icons/i-edit.png) no-repeat right center; }
+article.type-post footer.entry-meta, article.type-post footer.entry-meta a { font-size: 23px; color: #023c6c; margin-right: 3%; }
+
+
+/* ==|== comments =====================================================
+   Author: Jorge DD Martins / Front End Developer - HTML5 Evangelist
+   Code:  COMMENTS AREA
+   ========================================================================== */
+div.comments-area { width: 63%; margin: 30px auto; background: #fafafa; padding: 2%; }
+div.comments-area h2.comments-title { font-size: 22px; color: #023c6c; display: inline-block; } div.comments-area h2.comments-title span { font-size: 28px; color: #023c6c; }
+article.comment-body footer.comment-meta div.comment-author { margin-bottom: 15px; margin-top: 12px; }
+article.comment-body footer.comment-meta div.comment-author img.avatar { width: 60px; height: 60px; margin-bottom: 5px; border-radius: 500px; -webkit-border-radius: 500px; -moz-border-radius: 500px; -o-border-radius: 500px; -ms-border-radius: 500px; }
+article.comment-body footer.comment-meta div.comment-author cite.fn a, article.comment-body footer.comment-meta div.comment-author span.says { font-size: 12px; color: #079ac4; font-style: normal; }
+ol.comment-list { list-style: none!important; }
+article.comment-body footer.comment-meta div.comment-metadata a time { font-size: 13px; color: #023c6c; font-weight: bold; }
+article.comment-body footer.comment-meta div.comment-metadata span.edit-link a.comment-edit-link { font-size: 15px; color: #079ac4; padding-right: 3%; background: url(img/icons/i-edit.png) no-repeat right center; margin-left: 3%; }
+article.comment-body div.comment-content { margin-top: 10px; } article.comment-body div.comment-content p { font-size: 13px; color: #333; text-align: justify; } 
+article.comment-body div.reply { padding-bottom: 2%; }
+article.comment-body div.reply a { background: #023c6c; border: 0; font: 16px 'Ebrima'; font-weight: 100; color: #fff; padding-top: 0.6%; padding-bottom: 0.5%; padding-left: 5%; padding-right: 7%; }
+
+div.comment-respond h3.comment-reply-title { text-transform: uppercase; color: #023c6c; font-weight: bold; font-size: 16px; margin-bottom: 10px; }
+div.comment-respond p.logged-in-as { font-size: 13px; }
+div.comment-respond p.logged-in-as a { font-size: 13px; color: #023c6c; font-weight: bold; }
+p.comment-form-comment label { text-transform: uppercase; color: #023c6c; font-weight: bold; font-size: 16px!important; }
+
+/* ==|== pages =====================================================
+   Author: Jorge DD Martins / Front End Developer - HTML5 Evangelist
+   Code:  PAGES
+   ========================================================================== */
+article.type-page header.entry-header, header.entry-header-blog { width: 100%;
+display: inline-block;
+padding-top: 1.5%;
+padding-bottom: 1.5%; }
+
+article.type-page header.entry-header h1.entry-title, header.entry-header-blog h1.entry-title { width: 100%; display: inline-block;
+font-size: 36px;
+color: #023c6c;
+padding-left: 20%; }
+
+article.type-page header.entry-header h1.entry-title span.pg-sub_t, header.entry-header-blog h1.entry-title span.mini-title { display: inline-block;
+font-size: 18px;
+color: #079ac4;
+padding-left: 0.5%;
+padding-right: 11%; }
+
+div.entry-content p { font-size: 13px!important; color: #023c4c!important; text-align: justify!important; }
+
+
+/* ==|== account =====================================================
+   Author: Jorge DD Martins / Front End Developer - HTML5 Evangelist
+   Code:  MY ACCOUNT
+   ========================================================================== */
+
+div.entry-content h2 { text-transform: uppercase; font-weight: bold; font-size: 14px; }
+div.entry-content a { color: #000; font-weight: bold; }
+div.entry-content a.edit { font-size: 16px; color: #079ac4!important; font-weight: 100!important; padding-right: 5%; background: url(img/icons/i-edit.png) no-repeat right center; }
+
+address { font-size: 13px!important; color: #666; }
+.addresses .title h3 { margin-bottom: 10px;
+font-weight: bold;
+font-size: 15px; 
+color: #e38704!important; }
+
+
+
+
+
+
+

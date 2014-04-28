@@ -1,0 +1,238 @@
+/* POP UP */
+#search_box {
+	display: none;
+	width: 30%;
+	top: 0 !important;
+	left: 26% !important;
+	margin-top: 99px !important;
+}
+
+#search_box [role="application"] div.tab_details {
+	background: #fff;
+	padding-top: 3%;
+	padding-bottom: 1%;
+	border: 1px solid #079ac4;
+	border-bottom: 2px solid #079ac4;
+	position: relative;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#search_box [role="application"] div.tab_details span.tit_search {
+	font-size: 23px;
+	color: #079ac4;
+	padding-left: 12%;
+	padding-right: 9%;
+	padding-bottom: 1%;
+	background: url(../img/icons/lupa.png) no-repeat right center;
+}
+
+#search_box [role="application"] input[type="search"].dd_inp {
+	width: 90%;
+	height: 43px;
+	text-indent: 5%;
+	font-size: 16px;
+	color: #93dff5;
+	padding-right: 2%;
+	background: rgb(255,255,255);
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	line-height: 52px;
+	-webkit-box-shadow: #eee 0 0 1px 1px;
+	-moz-box-shadow: #eee 0 0 1px 1px;
+	-o-box-shadow: #eee 0 0 1px 1px;
+	box-shadow: #eee 0 0 1px 1px;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+	margin-left: 3.5%;
+	margin-top: 2%;
+}
+
+#search_box [role="application"] input[type="search"].dd_inp:hover {
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+#search_box [role="application"] input[type="search"].dd_inp:focus {
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(147, 223, 245, 1);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(147, 223, 245, 1);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(147, 223, 245, 1);
+	-o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(147, 223, 245, 1);
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+	border: 1px solid #80b4f4;
+}
+
+#search_box [role="application"] span.key_bt {
+	display: inline-block;
+	text-align: right;
+	font-size: 13px;
+	padding-top: 2%;
+	text-indent: 20px;
+	direction: rtl;
+}
+
+/* shop menu */
+#shop_online {
+	display: none;
+	width: 25%;
+	top: 0 !important;
+	left: 50% !important;
+	margin-top: 99px !important;
+}
+
+#shop_online [role="application"] div.shop_menu_ {
+	background: #fff;
+	padding-top: 14%;
+	border: 1px solid #079ac4;
+	border-bottom: 1px solid #079ac4;
+	position: relative;
+}
+
+#shop_online [role="application"] div.shop_menu_ a.shop_lk {
+	background: #fff url(../img/icons/arrow_lk.png) no-repeat right center;
+	padding-top: 5.5%;
+	padding-bottom: 4.5%;
+	border-bottom: 2px solid #079ac4;
+	font-size: 17px;
+	color: #023c4c;
+	text-indent: 40px;
+	width: 100%;
+	display: inline-block;
+	text-transform: uppercase;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+#shop_online [role="application"] div.shop_menu_ a.shop_lk:hover {
+	background: #fafafa url(../img/icons/arrow_lk.png) no-repeat right center;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+/* Lang */
+#lady_lang {
+	display: none;
+	width: 25%;
+	bottom: 29.3% !important;
+	left: 30% !important;
+}
+
+#lady_lang [role="application"] div.ladyx_menu_ {
+	background: #fff;
+	padding-top: 14%;
+	border: 1px solid #079ac4;
+	border-bottom: 1px solid #079ac4;
+	position: relative;
+}
+
+#lady_lang [role="application"] div.ladyx_menu_ a.shop_lk {
+	background: #fff url(../img/icons/arrow_lk.png) no-repeat right center;
+	padding-top: 5.5%;
+	padding-bottom: 4.5%;
+	border-bottom: 2px solid #079ac4;
+	font-size: 17px;
+	color: #023c4c;
+	text-indent: 40px;
+	width: 100%;
+	display: inline-block;
+	text-transform: uppercase;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+#lady_lang [role="application"] div.ladyx_menu_ a.shop_lk:hover {
+	background: #fafafa url(../img/icons/arrow_lk.png) no-repeat right center;
+	margin-left: 7%;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	-o-border-radius: 500px;
+	border-radius: 500px;
+	border-top: 1px solid #079ac4;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+/* Mobile Nav ( Iphone 5) */
+#mobile_nav {
+	display: none;
+	width: 85%;
+	top: 0 !important;
+	left: 50% !important;
+	margin-top: 99px !important;
+}
+
+#mobile_nav [role="application"] div.shop_mob_ {
+	background: #fff;
+	padding-top: 14%;
+	border: 1px solid #079ac4;
+	border-bottom: 1px solid #079ac4;
+	position: relative;
+}
+
+#mobile_nav [role="application"] div.shop_mob_ a.shop_lk {
+	background: #fff url(../img/icons/arrow_lk.png) no-repeat right center;
+	padding-top: 5.5%;
+	padding-bottom: 4.4%;
+	border-bottom: 2px solid #079ac4;
+	font-size: 23px;
+	color: #023c4c;
+	text-indent: 40px;
+	width: 100%;
+	display: inline-block;
+	text-transform: uppercase;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+#mobile_nav [role="application"] div.shop_mob_ a.shop_lk:hover {
+	background: #fafafa url(../img/icons/arrow_lk.png) no-repeat right center;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+#close_pop {
+	background: url(../img/icons/close_popup.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}

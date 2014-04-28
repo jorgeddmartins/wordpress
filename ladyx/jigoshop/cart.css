@@ -1,0 +1,159 @@
+/* ==|== cart =====================================================
+   Author: Jorge DD Martins / Front End Developer - HTML5 Evangelist
+   Code:  SHOP CART
+   ========================================================================== */
+
+header[role="banner"] div.in_head div.dd_wpth_bl div.lady_x_shopcar span.bag-count { /* color: #fff!important; */ }
+
+section[role="main"] div.entry-content { width: 80%; margin: 70px auto; /* background: #fafafa; */ padding: 13px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; }
+
+section[role="main"] div.entry-content table.shop_table { border: 0; border-radius: 0; margin-bottom: 50px!important; }
+
+section[role="main"] div.entry-content table.shop_table thead tr th { color: #023c4c;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+padding: 9px 12px!important;
+padding-bottom: 20px!important;
+text-transform: uppercase!important; }
+
+
+section[role="main"] div.entry-content table.shop_table tbody tr td { border-top: 1px solid #079ac4; border-bottom: 1px solid #079ac4; padding-top: 1.5%; padding-bottom: 1.5%; }
+
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-thumbnail img { width: 100px!important; height: 100px!important; margin: auto;
+border-radius: 500px;
+border-right: 2px solid #079ac4;
+transition: all 0.7s ease-in-out; 
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+}
+
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-thumbnail img:hover {
+transition: all 0.7s ease-in-out; 
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-moz-transform: scale(1.2);
+-o-transform: scale(1.2);
+}
+
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-thumbnail img { width: 70px!important; height: 70px!important; margin: auto;
+border-radius: 500px;
+-webkit-border-radius: 500px; 
+-moz-border-radius: 500px; 
+-o-border-radius: 500px; 
+-ms-border-radius: 500px;
+border-right: 2px solid #079ac4; padding: 5px; }
+
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-remove a { display: block;
+height: 20px;
+width: 20px;
+text-indent: -9999px;
+background: url(../img/remove.png); }
+
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-quantity div.quantity input[type="button"].minus, section[role="main"] div.entry-content table.shop_table tbody tr td.product-quantity div.quantity input[type="button"].plus { display: none; }
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-quantity div.quantity input.qty { margin-left: 20px!important; border-bottom: 2px solid #079ac4!important;
+border: 0; 
+width: 30px;
+height: 25px;
+display: inline;
+padding: 1px 5px 2px;
+line-height: 1em!important;
+vertical-align: middle;
+text-align: center;
+border-radius: 4px; }
+
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-quantity div.quantity input.qty:focus { outline: none; }
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-name a { color: #000!important; font-size: 15px; font-weight: bold; }
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-name a:visited { color: #000!important; }
+section[role="main"] div.entry-content table.shop_table tbody tr td.product-subtotal { font-weight: bold; }
+
+section[role="main"] div.entry-content table.shop_table tfoot tr td { border: 0; color: #e38704; font-size: 15px; }
+section[role="main"] div.entry-content table.shop_table tfoot tr td input[type="submit"].button { margin-top: 0.5%!important; margin-bottom: 1%!important; } 
+
+section[role="main"] div.entry-content table.shop_table tfoot tr td.actions a.checkout-button { background: #023c4c;
+font-size: 18px!important;
+color: #fff;
+font-weight: 100;
+border: 0;
+width: 20%!important;
+display: inline-block;
+padding-top: 1.2%;
+padding-bottom: 1.2%;
+padding-left: 3%;
+text-align: left;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+box-shadow: none;
+text-shadow: none;
+margin:0;
+border-radius: 7px;
+-webkit-border-radius: 7px;
+-o-border-radius: 7px;
+-ms-border-radius: 7px; 
+}
+
+section[role="main"] div.entry-content div.cart-collaterals { margin-top: 1%!important; }
+section[role="main"] div.entry-content div.cart-collaterals div.cart_totals { margin-right: 80px; }
+section[role="main"] div.entry-content div.cart-collaterals div.cart_totals h2 { font-size: 18px; color: #023c6c; border-bottom: 1px solid #023c6c; margin-bottom: 20px; text-transform: capitalize; }
+
+section[role="main"] div.entry-content div.cart-collaterals form.shipping_calculator h2 { border-top: 1px solid #023c6c; margin-right: 80px; width: 100%; margin-bottom: 10px; }
+section[role="main"] div.entry-content div.cart-collaterals form.shipping_calculator h2 a.shipping-calculator-button { font-size: 14px;
+color: #e38704; padding-top: 10px; display: block; }
+
+section[role="main"] footer.entry-meta { margin: auto; width: 80%; }
+section[role="main"] footer.entry-meta span.edit-link a.post-edit-link { font-size: 16px;
+color: #079ac4;
+padding-right: 3%;
+background: url(img/icons/i-edit.png) no-repeat right center; }
+
+section[role="main"] div.entry-content p { 
+font-size: 24px;
+color: #023c4c;
+text-align: center; }
+
+section[role="main"] div.entry-content p a.button { background: #023c4c;
+font-size: 18px!important;
+color: #fff;
+font-weight: 100;
+border: 0;
+width: 22%!important;
+display: inline-block;
+padding-top: 1.5%;
+padding-bottom: 1.5%;
+padding-left: 3%;
+text-align: left;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+box-shadow: none;
+text-shadow: none;
+margin:0;
+margin-left: 40%; }
+
+section[role="main"] div.entry-content div.jigoshop_message { background: #fafafa url(../img/success.png) no-repeat center left; border: 1px solid #eee; background-position-x: 70px; }
+section[role="main"] div.entry-content div.jigoshop_message span { color: #023c4c; padding-left: 12%; }
+
+section[role="main"] div.entry-content form.login { border: 0!important; }
+
+section[role="main"] div.entry-content form p.form-row a.lost_password { margin-left: 5%;
+position: relative;
+top: 50px; text-transform: uppercase; color: #023c4c; font-weight: bold; }
+
+input[type="radio"].shipping_select { width: 25px; position: relative; top: 2px; }
+
+div.cart-collaterals div.cart_totals_table { font-size: 15px; }
+
+div.cart-collaterals div.cart_totals_table table tbody tr th.cart-row-subtotal-title, div.cart_totals_table table tbody tr th.cart-row-shipping-title, div.cart_totals_table table tbody tr th.cart-row-tax-title  { color: #e38704; }
+ 
+
+
+
+
+
+
+ 
